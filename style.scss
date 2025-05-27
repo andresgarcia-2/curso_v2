@@ -1,0 +1,13 @@
+//siempre se llaman primerto a los utilities
+@import "./utilities/mixins";
+
+//se llama a lo que este en la carpeta base
+
+@import "./base/reset";
+@import "./base/typografia";
+
+//despues se llaman a los archivos layaouts
+
+@import "./layouts/header";
+//despues llammamos a los componentes
+@import "./components/navbar";
