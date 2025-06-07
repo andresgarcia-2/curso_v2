@@ -42,8 +42,10 @@ header {
 }
 
 ul {
-  column-count: 5;
-  column-gap: 1px;
+  -moz-column-count: 5;
+       column-count: 5;
+  -moz-column-gap: 1px;
+       column-gap: 1px;
 }
 
 body h1 {
@@ -805,7 +807,7 @@ nav a:hover {
   text-align: center;
   padding: 1rem;
   border: 1px dashed #ffea00;
-  background-color: rgb(25.5, 25.5, 25.5);
+  background-color: #1a1a1a;
 }
 .contacto form button {
   background-color: #ffea00;
@@ -819,7 +821,5 @@ nav a:hover {
   transition: background-color 0.3s ease;
 }
 .contacto form button:hover {
-  background-color: rgb(204, 187.2, 0);
-}
-
-/*# sourceMappingURL=style.css.map */
+  background-color: #ccbb00;
+}/*# sourceMappingURL=style.css.map */
