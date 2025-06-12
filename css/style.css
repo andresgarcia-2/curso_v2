@@ -690,6 +690,28 @@ nav a:hover {
   }
 }
 .quienesSomos {
+  background-image: url("../IMG/mag.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.quienesSomos .overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  max-width: 80%;
+}
+.quienesSomos .quienes-texto h1 {
+  color: white;
+}
+
+.quienesSomos {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
   padding: 60px 20px;
@@ -706,7 +728,7 @@ nav a:hover {
 }
 .quienesSomos .quienes-texto h1 {
   font-size: 2.5em;
-  color: #000000;
+  color: #ffffff;
 }
 .quienesSomos .quienes-texto h3 {
   font-size: 1.8em;
@@ -717,7 +739,7 @@ nav a:hover {
   font-weight: 400;
   font-style: normal;
   font-size: 1.2em;
-  color: #000000;
+  color: #ffffff;
   font-style: italic;
   margin-bottom: 20px;
 }
@@ -731,19 +753,21 @@ nav a:hover {
   font-style: normal;
   margin-top: 25px;
   font-size: 1.3em;
-  color: #000000;
+  color: #ffffff;
 }
 .quienesSomos .quienes-texto .estadisticas {
+  display: flex;
   list-style: none;
   padding: 0;
   margin-top: 10px;
+  flex-direction: center;
 }
 .quienesSomos .quienes-texto .estadisticas li {
   margin-bottom: 8px;
   font-weight: bold;
 }
 .quienesSomos .quienes-texto .estadisticas li strong {
-  color: #000000;
+  color: #ffffff;
 }
 .quienesSomos .quienes-imagen {
   flex: 1 1 350px;
@@ -805,7 +829,6 @@ nav a:hover {
   text-align: center;
   padding: 1rem;
   border: 1px dashed #ffea00;
-  background-color: rgb(25.5, 25.5, 25.5);
 }
 .contacto form button {
   background-color: #ffea00;
@@ -817,9 +840,6 @@ nav a:hover {
   text-transform: uppercase;
   border-radius: 4px;
   transition: background-color 0.3s ease;
-}
-.contacto form button:hover {
-  background-color: rgb(204, 187.2, 0);
 }
 
 /*# sourceMappingURL=style.css.map */
